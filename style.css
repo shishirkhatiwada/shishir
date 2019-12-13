@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+	padding: auto;
+}
+
+.container{
+	margin: auto;
+	padding: 0 20px;
+	overflow: auto;
+	max-width: 1100px;
+}
+
+
+/* nav-bar */
+
+#nav-bar{
+	background: #333;
+	padding: auto;
+	overflow: auto;
+}
+
+#nav-bar h1{
+	font-family: 'Source Code Pro', monospace;
+	float: left;
+	padding-top: 20px;
+}
+
+#nav-bar ul {
+	list-style: none;
+	float: right;
+}
+
+#nav-bar ul li {
+	float: left;
+}
+
+#nav-bar ul li a{
+	display: block;
+	padding: 20px;
+}
+
+#nav-bar a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav-bar ul li a.hover
+,#nav-bar ul li a.current{
+	background: #444; 
+	color: #f7c08a;
+}
+
+
+#home-info .profile{
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 30px;
+	font-family: 'IM Fell English', serif;
+	
+}
+
+#home-info .pro{
+	text-decoration: line-through;
+}
+
+#home-info{
+	background: url('./img/programmer2.jpeg') no-repeat center center/cover;
+}
+
+#home-info .text-color{
+	color: #f4f4f4;
+}
+
+#home-info .profile h2{
+	font-family: 'Source Code Pro', monospace;
+	
+}
+
+#home-info .profile .namee{
+	font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.bg-facebook{
+	background: #3b5998;
+	color: #fff;
+}
+
+.bg-instagram{
+	background: #F1BB63;
+	color: #fff;
+}
+
+.bg-youtube{
+	 background: #EE0F0F;
+}
+
+.box{
+	float: left;
+	width: 33.3%;
+	padding: 20px;
+	overflow: none;
+}
+
+.box i{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.clr {
+	clear: both;
+}
+
+.social{
+	background: #f7c08a;
+	text-align: center;
+}
+.box a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* about-me */
+
+#about-me{
+	background: #47849D; 
+	text-align: center;
+}
+
+#about-me .immg{
+	float: left;
+}
+
+#about-me .about-h2{
+	padding-top: 200px;
+}
+
+.language p{
+	text-align: center;	
+    font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+}
+
+.language{
+	background: #7B95FB;
+}
+#about-me .about-h2{
+	color: #333;
+	text-align: center;
+	padding-top: 200px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+#about-me a{
+	text-decoration: none;
+	color: #333;
+}
+
+.boox{
+	float: left;
+	width: 33.3%;
+	padding: auto;
+	overflow: none;
+}
+.my-creations{
+	text-align: center;	
+}
+
+.my-creations a{
+	text-decoration: none;
+	color: #fff;
+}
+.blog-btn {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #333;
+	padding: 13px 20px;
+	border: none;
+}
+
+#main-footer{
+	text-align: center;
+	background: #444;
+	color: #fff;
+	padding: 20px;
+}
+
+/*  Blog */
+
+.coming-soon{
+	text-align: center;
+	background: #fff;
+	color: #444;
+	padding: 200px;
+}
+
+/* contact */
+.contact-form{
+	text-align: center;
+}
+
+#contact-form .form{
+	margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px #ddd solid; 
+}
+
+#contact-form textarea{
+	height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+	outline: none;
+	border-color: #f7c08a;
+}
